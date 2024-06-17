@@ -8,5 +8,5 @@
 
         steps:
         - uses: actions/checkout@v2
-        - name: Use a secret
-          run: echo ${{ secrets.MY_SECRET }}
+        - name: Run a one-line script
+          run: echo Hello, world!
