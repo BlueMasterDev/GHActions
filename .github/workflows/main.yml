@@ -9,4 +9,4 @@
         steps:
         - uses: actions/checkout@v2
         - name: Use a secret
-          run: echo ${{ secrets.MY_SECRET }}
+          run: echo ${{ secrets.MY_SECRET }} 
